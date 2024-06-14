@@ -6,7 +6,7 @@ return (
     
 <div>
 
-<p>Created By Marley</p>
+<p>Time is the most valuable thing a man can spend</p>
 
 </div>
 );

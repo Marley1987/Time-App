@@ -24,7 +24,7 @@ function App() {
       <h1 class="CT">Current Time</h1>
       <h3>By Marley &copy;</h3>
       <p>This webpage always displays the current time</p>
-      <p id="demo"></p>
+      <p id="demo" className="big-font"></p>
 
       <Footer/>
       </div>
