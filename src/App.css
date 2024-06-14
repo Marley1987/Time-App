@@ -24,23 +24,14 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-
 .CT {
 
   color: rgb(230, 51, 51);
-  font-size: 5rem;
+  font-size: 4rem;
   text-shadow: 2px 2px white;
 }
 
 .big-font {
-  font-size: 10rem;
+  font-size: 5rem;
+  color: yellow;
 }
