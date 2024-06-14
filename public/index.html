@@ -10,6 +10,8 @@
       content="Web site created using create-react-app"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -27,8 +29,46 @@
     <title>React App</title>
   </head>
   <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+
+    <div class="container mt-3">
+      <h2>This is a Time App</h2>
+      <br>
+      <!-- Nav tabs -->
+      <ul class="nav nav-tabs" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" data-bs-toggle="tab" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-bs-toggle="tab" href="#menu1">Menu 1</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-bs-toggle="tab" href="#menu2">Menu 2</a>
+        </li>
+      </ul>
+    
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div id="home" class="container tab-pane active"><br>
+          <h3>HOME</h3>
+          <p>You're at the Homepage</p>
+        </div>
+        <div id="menu1" class="container tab-pane fade"><br>
+          <h3>Ghana</h3>
+          <p>Time in Ghana is 1 hour behind</p>
+        </div>
+        <div id="menu2" class="container tab-pane fade"><br>
+          <h3>Menu 2</h3>
+          <p>This page is under construction.</p>
+        </div>
+      </div>
+    </div>
+    <div id="root">
+
+
+    </div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -38,6 +78,10 @@
 
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
+
+
     -->
+
+    
   </body>
 </html>
