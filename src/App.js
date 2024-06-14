@@ -22,7 +22,7 @@ function App() {
     <div class="container mt-3">
       <div class="container p-5 my-5 bg-primary text-white">
       <h1 class="CT">Current Time</h1>
-      <h3>Created By Marley</h3>
+      <h3>By Marley &copy;</h3>
       <p>This webpage always displays the current time</p>
       <p id="demo"></p>
 
